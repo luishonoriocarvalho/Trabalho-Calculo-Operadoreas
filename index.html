@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">    
+    <script src="index.js" defer></script>
+    <title>Health Care</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md py-3 nav-color">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <h1 class="m-0"><img class="d-block nav-img" src="img/android-chrome-192x192.png" alt="Logo da empresa Health Care"></h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto ">                    
+                    <li class="nav-item">
+                        <a class="link-color" href="#calculadora">Calculadora</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="  link-color" href="#resultado">Comparação</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main id="main-content">
+        <section class="first-section">
+            <div class="section-text ms-2">
+                <h1 class="mt-5 section-main-text">Plano de Saúde para Você Viver Sem Preocupações</h1>
+                <p class="mt-4 section-text">Na Helth Care, acreditamos que uma vida saudável é a base para a felicidade. Conheça nossa calculadora e descubra qual plano de saúde se encaixa melhor no seu orçamento.</p>
+                <h2 class="section-main-text">Tipos de Plano:</h2>
+                <ul>
+                    <li>Plano Básico</li>
+                    <li>Plano Standart</li>
+                    <li>Plano Premium</li>
+                </ul>
+            </div>
+            <div>
+                <img class="section-img me-5" src="img/banner.jpg" alt="">
+            </div>
+        </section>
+        <section id="calculadora">
+            <h1 class="my-4 ms-2 section-main-text">Calculadora</h1>
+            <div class="my-4 ms-2 section-text" >
+                <div class="calculadora-content">
+                    <label for="idade">Idade</label>
+                    <input type="text" name="idade" id="idade">
+                    <label for="altura">Altura</label>
+                    <input type="text" name="altura" id="altura" placeholder="Altura em cm">
+                    <label for="peso">Peso</label>
+                    <input type="text" name="peso" id="peso" placeholder="Peso em kg">
+                    <button type="button" id="calculadora-btn">Calcular</button>
+                </div>
+                
+            </div>
+            
+        </section>
+        <section id="resultado" class="my-3 ms-2">
+            <h1 class="section-main-text">Comparação</h1>
+            <div id="resultado-text">
+
+            </div>
+        </section>
+    </main>
+    <footer class="my-0">
+        <div class="footer-container"> 
+            <p class="footer-text my-0"><img class="me-3 footer-img" src="img/favicon.ico" alt="Logo da empresa Health Care">2023 Helth Care <i class="bi bi-r-circle"></i></p>
+        </div>
+    </footer>
+   
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
